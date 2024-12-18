@@ -1,0 +1,15 @@
+import pandas as pd
+
+
+
+df_excel = pd.read_excel('Datat Excel.xlsx')
+
+
+print(df_excel.head())
+
+
+print(df_excel.info())
+
+
+
+
